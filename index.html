@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Games Cup</title>
+    <link rel="shortcut icon" href="./imagenes/logo.png">
+    <link rel="stylesheet" media="all" href="css/principal.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Responsive Video Slider -->
+    <link href="css/rvslider.min.css" rel="stylesheet">
+    <script src="js/rvslider.min.js"></script>
+</head>
+<body style="background-image: url('imagenes/fondo.jpg');  background-repeat: no-repeat;">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn" onclick="fun()">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="principal.html" class="enlace">
+            <img src="imagenes/logo.png" alt="" class="logo">
+        </a>
+        <ul>
+                <li><a href="juegos.html">JUEGOS</a></li>
+                <li><a href="equipos.html">EQUIPOS</a></li>
+                <li><a href="clasificacion.html">CLASIFICACIÓN</a></li>
+                <li><a href="calendario.html">CALENDARIO/RESULTADOS</a></li>
+                <li><a href="normativa.html">NORMATIVA</a></li>
+                <li><a href="redesociales.html">REDES SOCIALES</a></li> 
+                <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+    <section id="section">
+        <h1> SUMMER GAMES CUP</h1>
+        <div id="slider" class="rvs-container rvs-green-highlight rvs-bordered-circle-play rvs-show-play">
+            <div class="rvs-item-container">
+                <div class="rvs-item-stage">
+                    <div class="rvs-item" style="background-image: url(./imagenes/presentacion.jpg)">
+                        <p class="rvs-item-text">Video Presentación </p>
+                        <a href="https://www.youtube.com/watch?v=dzsuE5ugxf4" class="rvs-play-video"></a>
+                    </div>
+                    <div class="rvs-item" style="background-image: url(./imagenes/pokemon.jpg)">
+                        <p class="rvs-item-text">Pokemon </p>
+                        <a href="https://www.youtube.com/watch?v=K_IjmegkXuY" class="rvs-play-video"></a>
+                    </div>
+                    <div class="rvs-item" style="background-image: url(./imagenes/fifa.jpg)">
+                        <p class="rvs-item-text">Fifa </p>
+                        <a href="https://www.youtube.com/watch?v=-WoEwvP623Q&t=90s" class="rvs-play-video"></a>
+                    </div>
+                    <div class="rvs-item" style="background-image: url(./imagenes/rainbow.jpg)">
+                        <p class="rvs-item-text">Rainbow </p>
+                        <a href="https://www.youtube.com/watch?v=dSURnbD_BhQ" class="rvs-play-video"></a>
+                    </div>
+                    <div class="rvs-item" style="background-image: url(./imagenes/valorant.webp)">
+                        <p class="rvs-item-text">Valorant </p>
+                        <a href="https://www.youtube.com/watch?v=h7MYJghRWt0" class="rvs-play-video"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="rvs-nav-container">
+                <a class="rvs-nav-prev"></a>
+                <div class="rvs-nav-stage">
+                    <a class="rvs-nav-item">
+                        <span class="rvs-nav-item-thumb" style="background-image: url(./imagenes/presentacion.jpg)"></span>
+                        <h4 class="rvs-nav-item-title">Video Presentación</h4>
+                        
+                    </a>
+                    <a class="rvs-nav-item">
+                        <span class="rvs-nav-item-thumb" style="background-image: url(./imagenes/pokemon.jpg)"></span>
+                        <h4 class="rvs-nav-item-title">Pokemon</h4>
+                        
+                    </a>
+                    <a class="rvs-nav-item">
+                        <span class="rvs-nav-item-thumb" style="background-image: url(./imagenes/fifa.jpg)"></span>
+                        <h4 class="rvs-nav-item-title">Fifa</h4>
+                        
+                    </a>
+                    <a class="rvs-nav-item">
+                        <span class="rvs-nav-item-thumb" style="background-image: url(./imagenes/rainbow.jpg)"></span>
+                        <h4 class="rvs-nav-item-title">Rainbow</h4>
+                        
+                    </a>
+                    <a class="rvs-nav-item">
+                        <span class="rvs-nav-item-thumb" style="background-image: url(./imagenes/valorant.webp)"></span>
+                        <h4 class="rvs-nav-item-title">Valorant</h4>
+                        
+                    </a>
+                </div>
+                <a class="rvs-nav-next"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+		
+		<div class="footer-limiter">
+
+			<div class="footer-right">
+
+				<a href="#"><i class="fab fa-discord"></i></a>
+				<a href="#"><i class="fab fa-whatsapp-square"></i></a>
+				<a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-twitch"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">Redes Sociales</p>
+
+				<p>Summer Games Cup</p>
+			</div>
+
+		</div>
+
+	</footer>
+    <script>
+        jQuery(function($){
+            $(".rvs-container").rvslider();
+        });
+
+        var flag = false;
+        var div = document.getElementById("section");
+        var footer = document.getElementById("footer");
+
+    function fun() {
+        if (flag ^= true) {
+                         div.style.display = "none"; 
+                         footer.style.display = "none"; 
+        } else {
+                         div.style.display = "block";
+                         footer.style.display = "block";
+        }
+    }
+    </script>
+</body>
+</html>
